@@ -71,7 +71,7 @@ async def catgban(event):  # sourcery no-metrics
     if sandy == 0:
         return await edit_delete(cate, "`you are not admin of atleast one group` ")
     await cate.edit(
-        f"`initiating gban of the `[user](tg://user?id={user.id}) `in {len(san)} groups`"
+        f"`initiating gban of the `[user](tg://user?id={user.id}) `in 121 groups`"
     )
     for i in range(sandy):
         try:
